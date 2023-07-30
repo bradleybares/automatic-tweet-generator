@@ -3,7 +3,7 @@
 This project was created for a marketing campaign for an in development NFT. The goal was to create a program that would
 automatically generate tweets including a programatically generated image, image description, and hashtags.
 
-The programatically generated image is created using the [Pillow](https://pillow.readthedocs.io/en/stable/) library. An image is taken from a separately generated set of Unsplash images and a random quote was taken from a set of quotes scraped from the web. The quote and a watermark are formatted onto the image and the image is saved to a temporary directory.
+The programatically generated image is created using the [Pillow](https://pillow.readthedocs.io/en/stable/) library. An image is taken from a generated set of Unsplash images and a random quote was taken from a set of quotes scraped from the web. The quote and a watermark are formatted onto the image and the image is saved to a temporary directory.
 
 ![Generated Image](./generated-image.jpg)
 
@@ -19,7 +19,7 @@ Images are generated in bulk and paired with the tweet text and hashtags. After 
 
 Most systems will have Python installed, to verify your version run `python3 --version` in your command line. If your version is lower than 3.8 or the command does not return a version number, visit the Python [downloads page](https://www.python.org/downloads/) and download the latest version.
 
-Alternatively you can use a python environment manager such as [pyenv](https://github.com/pyenv/pyenv) to install and manage your python versions. This is the recommended method as it allows you to easily switch between python versions.
+Alternatively you can use a python environment manager such as [pyenv](https://github.com/pyenv/pyenv) to install and manage your python versions. This is the recommended method as it allows you to easily switch between python versions depending on the project.
 
 ### Poetry
 
@@ -51,6 +51,4 @@ Run tweet scheduler using `python3 -m app.src.tweet_scheduler.schedule_tweets` i
 
 ## Project Status
 
-The project is fully functional and meets all the set goals. However, as this was
-related to another project that is on hold I am unlikely to continue work on the project. This project
-was a fantastic learning experience and I hope to bring my newfound knowledge to future endeavours.
+The project is fully functional and meets all the set goals. However, as this was related to a project that is no longer in the works I am unlikely to continue work on the project. This project was a fantastic learning experience and I hope to bring my newfound knowledge to future endeavours.
